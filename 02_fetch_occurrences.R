@@ -1,6 +1,6 @@
 # HAB taxa reference list
 hab_tax <- download_habs_taxlist()
-sp_vec  <- unique(hab_tax$scientificName)
+sp_vec  <- unique(hab_tax$ScientificName)
 
 # Loop over each Arctic LME
 occ_by_lme <- purrr::map_dfr(
