@@ -34,10 +34,10 @@ source("https://raw.githubusercontent.com/NicoSchiff/AlgaeBaseR/main/R/download_
 Open the RStudio project and run the steps individually:
 
 ```r
-source("00_setup.R")
-source("01_get_lme_arctic.R")     # → arctic_shp
-source("02_fetch_occurrences.R")  # → occ_by_lme
-source("03_map_arctic_lme.R")     # → outputs/figures/map_arctic.png
+source("01_setup_and_helpers.R")
+source("02_artic_lme_shapefile.R")     # → arctic_shp
+source("03_fetch_occurrences_by_lme.R")  # → occ_by_lme
+source("04_genera_pacific_vs_atlantic.R")     # → outputs/figures/map_arctic.png
 ```
 
 ## Key functions
